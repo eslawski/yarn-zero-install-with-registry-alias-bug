@@ -4,7 +4,11 @@
   "packageRules": [
     {
       "matchPackageNames": ["webpack", "node"],
-      "groupName": "Minimal reproduction PR"
+      "groupName": "Example PR that does NOT update yarn cache"
+    },
+    {
+      "matchPackageNames": ["vue"],
+      "groupName": "Example PR that correctly updates yarn cache"
     }
   ]
 }
