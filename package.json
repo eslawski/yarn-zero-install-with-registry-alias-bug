@@ -1,0 +1,9 @@
+{
+  "name": "yarn-zero-install-with-registry-alias-bug",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "webpack": "5.96.0"
+  },
+  "packageManager": "yarn@4.8.1"
+}
