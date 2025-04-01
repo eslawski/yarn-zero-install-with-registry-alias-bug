@@ -1,5 +1,0 @@
-foo:
-  stage: .pre
-  image: mysql:8.0
-  script:
-    - echo "hello world from foo!"
