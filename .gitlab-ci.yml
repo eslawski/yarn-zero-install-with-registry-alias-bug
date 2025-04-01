@@ -1,5 +1,5 @@
 foo:
   stage: .pre
-  image: mysql:8.0
+  image: node:22.14.0-alpine
   script:
     - echo "hello world from foo!"
