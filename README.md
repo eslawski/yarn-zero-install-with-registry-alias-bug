@@ -1,12 +1,9 @@
-# minimal-reproduction-template
+# Renovate Discussion #: 35127
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
-Renovate correctly groups the `mysql` (gitlabci) and `webpack` (npm) dependencies into the same PR.
+Renovate correctly groups the `node` (Docker image) and `webpack` (npm) updates into the same PR.
 However, the yarn cache is NOT updated even though this project is configured to use Yarn zero-installs.
 
 ## Expected behavior
@@ -15,4 +12,4 @@ Renovate continues to group the dependencies into the same PR, but also updates 
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+See https://github.com/renovatebot/renovate/discussions/35127
