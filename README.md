@@ -6,11 +6,12 @@ Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate correctly groups the `mysql` (gitlabci) and `webpack` (npm) dependencies into the same PR.
+However, the yarn cache is NOT updated even though this project is configured to use Yarn zero-installs.
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate continues to group the dependencies into the same PR, but also updates the Yarn cache.
 
 ## Link to the Renovate issue or Discussion
 
