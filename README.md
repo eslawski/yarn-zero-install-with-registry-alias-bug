@@ -1,8 +1,5 @@
-# minimal-reproduction-template
+# Renovate Discussion #: 35127
 
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
@@ -15,4 +12,4 @@ Renovate continues to group the dependencies into the same PR, but also updates 
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+See https://github.com/renovatebot/renovate/discussions/35127
