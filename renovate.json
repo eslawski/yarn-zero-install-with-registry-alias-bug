@@ -3,10 +3,8 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
-      "matchPackageNames": ["*"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "groupName": "all non-major dependencies",
-      "groupSlug": "all-minor-patch"
+      "matchPackageNames": ["webpack", "node"],
+      "groupName": "Minimal reproduction PR"
     }
   ]
 }
