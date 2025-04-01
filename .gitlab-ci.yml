@@ -1,5 +1,6 @@
 foo:
   stage: .pre
-  image: docker.io/library/mysql:8.0
+  image: mysql:8.0 # This leads to yarn cache successfully being regenerated
+#  image: $MY_ALIAS/mysql:8.0 # This leads to yarn cache NOT being regenerated
   script:
     - echo "hello world from foo!"
