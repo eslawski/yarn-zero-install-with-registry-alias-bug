@@ -1,5 +1,5 @@
 foo:
   stage: .pre
-  image: node:22.14.0-alpine
+  image: node:22.13.0-alpine
   script:
     - echo "hello world from foo!"
