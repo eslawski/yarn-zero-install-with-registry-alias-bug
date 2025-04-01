@@ -1,6 +1,5 @@
 foo:
   stage: .pre
-  image: mysql:8.0 # This leads to yarn cache successfully being regenerated
-#  image: $MY_ALIAS/mysql:8.0 # This leads to yarn cache NOT being regenerated
+  image: mysql:8.0
   script:
     - echo "hello world from foo!"
