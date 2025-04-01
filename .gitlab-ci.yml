@@ -1,5 +1,5 @@
 foo:
   stage: .pre
-  image: docker.io/library/mysql:8.0
+  image: docker.io/library/mysql:8.4
   script:
     - echo "hello world from foo!"
