@@ -3,7 +3,7 @@
 
 ## Current behavior
 
-Renovate correctly groups the `node` (gitlabci) and `webpack` (npm) updates into the same PR.
+Renovate correctly groups the `node` (Docker image) and `webpack` (npm) updates into the same PR.
 However, the yarn cache is NOT updated even though this project is configured to use Yarn zero-installs.
 
 ## Expected behavior
